@@ -2,18 +2,54 @@ package Base;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.net.MalformedURLException;
 
 
 public class BaseStep {
     public WebDriver driver;
     public JavascriptExecutor jse = (JavascriptExecutor) driver;
 
-    public BaseStep() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Furkan\\Desktop\\chromedriver.exe");
-        driver = new ChromeDriver();
+
+    public void openBrowser(String browserName) throws MalformedURLException {
+        String browser = System.getProperty("BROWSER");
+
+        if(browser==null)
+        {
+            browser = System.getenv("BROWSER");
+            if(browser==null)
+            {
+                browser= "chrome";
+            }
+        }
+        switch (browserName)
+        {
+            case "chrome":
+                driver = new ChromeDriver();
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Furkan\\Desktop\\chromedriver.exe");
+                break;
+            case "firefox":
+                driver = new FirefoxDriver();
+                break;
+            case "ie":
+                driver = new InternetExplorerDriver();
+                break;
+            case "safari":
+                driver = new SafariDriver();
+                break;
+            default:
+                driver = new ChromeDriver();
+                break;
+        }
+        System.out.println("Opening Browser...."+browser);
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
+
     }
 
     public enum Pather {

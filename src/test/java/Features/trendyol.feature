@@ -1,10 +1,10 @@
 #language:tr
 
-Özellik: Trendyol case calismasi
+Özellik: Trendyol Otomasyon Muhendisi Calismasi
 
   @trend
-  Senaryo: Trendyol giris
-    Diyelim ki "https://www.trendyol.com/" sayfasina giris yaptim
+  Senaryo: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi
+    Diyelim ki "chrome" tarayicisinda "https://www.trendyol.com/" sayfasina giris yaptim
     Ve reklam penceresini kapadim
     Ve "Giriş Yap" secenegine tikladim
     Ve "email" alanina "akgul.meryem@gmail.com" yazarsam

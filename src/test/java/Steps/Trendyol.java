@@ -14,10 +14,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Trendyol extends BaseStep {
-    @Diyelimki("^\"([^\"]*)\" sayfasina giris yaptim$")
-    public void sayfasinaGirisYaptim(String url) throws Throwable {
+
+    @Diyelimki("^\"([^\"]*)\" tarayicisinda \"([^\"]*)\" sayfasina giris yaptim$")
+    public void tarayicisindaSayfasinaGirisYaptim(String browser, String url) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        openBrowser(browser);
         geturl(url);
     }
+
 
     @Ve("^reklam penceresini kapadim$")
     public void reklamPenceresiniKapadim() {
@@ -26,7 +30,6 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" secenegine tikladim$")
     public void secenegineTikladim(String linkName) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
         findElementClick("span#not-logged-in-container", Pather.cssSelector);
         switch (linkName) {
             case "Giriş Yap":
@@ -71,28 +74,6 @@ public class Trendyol extends BaseStep {
 
     @Ozaman("^butik imajlarinin yuklendigi gorulur$")
     public void butikImajlarininYuklendigiGorulur() throws Throwable {
-//        int articleSize = driver.findElements(By.cssSelector("article.component-item")).size();
-//        System.out.println("------" + articleSize);
-//        ArrayList<String> imageArray = new ArrayList<String>();
-//        for (int i = 0; i < articleSize; i++) {
-//            String image = driver.findElements(By.xpath("//article[@class='component-item']//descendant::img")).get(i).getAttribute("src");
-//            System.out.println(image);
-//            Boolean imagePresent = null;
-//            imagePresent = (Boolean) ((JavascriptExecutor) driver).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[i].naturalWidth > 0", image);
-//
-//            try {
-//                if (imagePresent == false)
-//                    System.out.println("image yok");
-//                else
-//                    System.out.println("image var");
-//
-//            } catch (NullPointerException e) {
-//                System.out.print("Caught NullPointerException");
-//            }
-//            System.out.println(imageArray);
-//            System.out.println(imageArray.size());
-//
-//        }
 
         List<WebElement> total_images = driver.findElements(By.xpath("//article[@class='component-item']//descendant::img"));
         System.out.println("Total Number of images found on page = " + total_images.size());
@@ -130,7 +111,7 @@ public class Trendyol extends BaseStep {
     @Ve("^tum menulere tiklanip imajlarin yuklendigi gorulur$")
     public void tumMenulereTiklanipImajlarinYuklendigiGorulur() throws Throwable {
         Integer menuSize = driver.findElements(By.xpath("//ul[@class='main-nav']//li[@class='tab-link']")).size();
-        for (int i = 1; i < menuSize; i++) {
+        for (int i = 0; i < menuSize; i++) {
             WebElement menu = driver.findElements(By.xpath("//ul[@class='main-nav']//li[@class='tab-link']")).get(i);
             menu.click();
             List<WebElement> total_images = driver.findElements(By.xpath("//article[@class='component-item']//descendant::img"));
@@ -204,7 +185,10 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" urunu detayina gidilir$")
     public void urunuDetayinaGidilir(String productDetail) throws Throwable {
-        driver.findElement(By.xpath("//div[text()='" + productDetail + "']")).click();
+        findElementClick("//div[text()='"+productDetail+"']",Pather.xPath);
+        String productLink=findElement("//span[@class='breadcrumb-item']//span",Pather.xPath,TimeOut.LOW).getText();
+//        Assert.assertEquals(productLink,productDetail);
+
     }
 
     @Ve("^\"([^\"]*)\" butonuna basilirsa$")
@@ -214,6 +198,7 @@ public class Trendyol extends BaseStep {
 
     @Ozaman("^\"([^\"]*)\" urununun sepete eklendigi gorulur$")
     public void urunununSepeteEklendigiGorulur(String productName) throws Throwable {
+        Assert.assertNotNull(findElement("//h1[normalize-space(text()='Sepetim')]",Pather.xPath,TimeOut.LOW));
         findElementClick("li#myBasketListItem", Pather.cssSelector);
         String product = driver.findElement(By.cssSelector("span.description.basketlist-productinfo-description")).getText();
         Assert.assertEquals(product, productName);
@@ -230,6 +215,8 @@ public class Trendyol extends BaseStep {
     public void tarayiciKapatilir() {
         DriverClose();
     }
+
+
 }
 
 
