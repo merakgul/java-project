@@ -2,35 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b8c001a-0b7a-4f03-b43d-b759b0ce2151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/RestService.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/RestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Base/BaseStep$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Base/BaseStep$Pather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Base/BaseStep$TimeOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Base/BaseStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Runner/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Steps/RegisterStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Steps/Trendyol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Runner.Runner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/Runner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Runner.Runner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5445188054410144149_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$Pather.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$Pather.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$TimeOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$TimeOut.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Base/BaseStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Steps/RegisterStep.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Register.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/RegisterStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Trendyol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Trendyol.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,6 +36,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/meryemProject$Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi.ic" NAME="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Coverage Results" MODIFIED="1578558992501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
   </component>
   <component name="Cvs2Configuration">
     <option name="SHOW_OUTPUT" value="true" />
@@ -81,11 +84,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Features/trendyol.feature">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Features/Trendyol.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Trendyol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="198" column="68" lean-forward="true" selection-start-line="198" selection-start-column="68" selection-end-line="198" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6943#6944#0" expanded="true" />
+                <element signature="e#6973#6974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Features/RestService.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,14 +163,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/RegisterStep.java" />
         <option value="$PROJECT_DIR$/src/test/resources/trendyol.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/trendyol.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/Register.feature" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/Rest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/Steps/Rest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Steps/RestService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/rest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Trendyol.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Base/rest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/RestService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/RestService.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
       </list>
     </option>
   </component>
@@ -147,7 +205,7 @@
             <path>
               <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +216,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578518020127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578581143484" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../trendyolProject" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -167,12 +225,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\java\Steps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\driver" />
       <recent name="C:\Users\Furkan\IdeaProjects\meryemProject" />
       <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\driver" />
+      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\java\Steps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,15 +247,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.meryemProject [clean]">
-    <configuration name="Feature: trendyol" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Feature: Trendyol">
+    <configuration name="Feature: Trendyol" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="newGradleProject.meryemProject.test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: trendyol" />
+      <option name="SUGGESTED_NAME" value="Feature: Trendyol" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -206,15 +266,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Kullanici girisi yapilarak sepete urun eklenmesi hepsiburada" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Id read-only control" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Register.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/RestService.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="newGradleProject.meryemProject.test" />
-      <option name="NAME_FILTER" value="^Kullanici girisi yapilarak sepete urun eklenmesi hepsiburada$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Kullanici girisi yapilarak sepete urun eklenmesi hepsiburada$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanici girisi yapilarak sepete urun eklenmesi hepsiburada" />
+      <option name="NAME_FILTER" value="^Id read\-only control$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Id read\-only control$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Id read-only control" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Trendyol Site Giri ve Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="newGradleProject.meryemProject.test" />
+      <option name="NAME_FILTER" value="^Trendyol Site Giri ve Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Trendyol Site Giri ve Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Trendyol Site Giri ve Login" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -227,7 +306,7 @@
     </configuration>
     <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="newGradleProject.meryemProject.test" />
@@ -244,15 +323,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Trendyol giris" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: : Trendyol Sitesi Girisi ve Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="newGradleProject.meryemProject.test" />
-      <option name="NAME_FILTER" value="^Trendyol giris$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Trendyol giris$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Trendyol giris" />
+      <option name="NAME_FILTER" value="^\: Trendyol Sitesi Girisi ve Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^\: Trendyol Sitesi Girisi ve Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: : Trendyol Sitesi Girisi ve Login" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -262,25 +341,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="meryemProject [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="trend" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -302,20 +362,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Kullanici girisi yapilarak sepete urun eklenmesi hepsiburada" />
-      <item itemvalue="Cucumber java.Scenario: Trendyol giris" />
-      <item itemvalue="Cucumber java.Feature: trendyol" />
-      <item itemvalue="Cucumber java.Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" />
       <item itemvalue="Gradle.trend" />
-      <item itemvalue="Gradle.meryemProject [clean]" />
+      <item itemvalue="Cucumber java.Feature: Trendyol" />
+      <item itemvalue="Cucumber java.Scenario: Id read-only control" />
+      <item itemvalue="Cucumber java.Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" />
+      <item itemvalue="Cucumber java.Scenario: Trendyol Site Giri ve Login" />
+      <item itemvalue="Cucumber java.Scenario: : Trendyol Sitesi Girisi ve Login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: Trendyol" />
+        <item itemvalue="Cucumber java.Scenario: : Trendyol Sitesi Girisi ve Login" />
+        <item itemvalue="Cucumber java.Scenario: Trendyol Site Giri ve Login" />
         <item itemvalue="Cucumber java.Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" />
-        <item itemvalue="Gradle.meryemProject [clean]" />
-        <item itemvalue="Cucumber java.Scenario: Trendyol giris" />
-        <item itemvalue="Cucumber java.Scenario: Kullanici girisi yapilarak sepete urun eklenmesi hepsiburada" />
-        <item itemvalue="Cucumber java.Feature: trendyol" />
+        <item itemvalue="Cucumber java.Scenario: Id read-only control" />
       </list>
     </recent_temporary>
   </component>
@@ -330,38 +390,46 @@
       <option name="presentableId" value="Default" />
       <updated>1558522440436</updated>
     </task>
+    <task id="LOCAL-00001" summary="trendyol browser parametrik acilisi">
+      <created>1578518058554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578518058554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.08 at 23h 38m 01s.xml">
+    <history-entry file="Feature__Trendyol - 2020.01.09 at 17h 01m 48s.xml">
+      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Id_read-only_control - 2020.01.09 at 17h 04m 11s.xml">
+      <configuration name="Scenario: Id read-only control" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.09 at 17h 20m 16s.xml">
       <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.08 at 23h 39m 38s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Trendyol_Site_Giri_ve_Login - 2020.01.09 at 17h 23m 40s.xml">
+      <configuration name="Scenario: Trendyol Site Giri ve Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.08 at 23h 41m 52s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Trendyol_Site_Giri_ve_Login - 2020.01.09 at 17h 26m 42s.xml">
+      <configuration name="Scenario: Trendyol Site Giri ve Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.08 at 23h 43m 28s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario____Trendyol_Sitesi_Girisi_ve_Login - 2020.01.09 at 17h 41m 00s.xml">
+      <configuration name="Scenario: : Trendyol Sitesi Girisi ve Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.08 at 23h 49m 29s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Trendyol - 2020.01.09 at 17h 41m 08s.xml">
+      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.08 at 23h 55m 16s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Trendyol - 2020.01.09 at 17h 41m 39s.xml">
+      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.09 at 00h 01m 55s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Trendyol - 2020.01.09 at 17h 43m 35s.xml">
+      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.09 at 00h 05m 30s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.09 at 00h 07m 53s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi - 2020.01.09 at 00h 10m 31s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Trendyol - 2020.01.09 at 17h 44m 53s.xml">
+      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -375,9 +443,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.20309168" />
+      <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.20309168" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -385,7 +454,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.52666664" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.4677778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,16 +464,52 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026652" side_tool="true" weight="0.32" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4968017" weight="0.35555556" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3288889" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5008157" side_tool="true" weight="0.15191898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.15191898" />
+      <window_info anchor="right" id="Gradle" order="5" sideWeight="0.49918434" visible="true" weight="0.15191898" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.20309168" />
+      <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.20309168" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.3188889" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.3288889" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026652" side_tool="true" weight="0.32" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4968017" weight="0.35555556" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3288889" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5008157" side_tool="true" visible="true" weight="0.15191898" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49918434" visible="true" weight="0.15191898" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="trendyol browser parametrik acilisi" />
+    <option name="LAST_COMMIT_MESSAGE" value="trendyol browser parametrik acilisi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/Throwable.java">
@@ -451,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -472,31 +570,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseStep.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Rest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/REs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Steps/Rest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Base/rest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6974#6975#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/RestService.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6943#6944#0" expanded="true" />
+            <element signature="e#6973#6974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/Trendyol.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Trendyol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        <state relative-caret-position="126">
+          <caret line="198" column="68" lean-forward="true" selection-start-line="198" selection-start-column="68" selection-end-line="198" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/trendyol.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>

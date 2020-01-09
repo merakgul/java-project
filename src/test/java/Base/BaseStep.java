@@ -1,12 +1,16 @@
 package Base;
 
+import okhttp3.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.net.MalformedURLException;
 
@@ -19,34 +23,45 @@ public class BaseStep {
     public void openBrowser(String browserName) throws MalformedURLException {
         String browser = System.getProperty("BROWSER");
 
-        if(browser==null)
-        {
+        if (browser == null) {
             browser = System.getenv("BROWSER");
-            if(browser==null)
-            {
-                browser= "chrome";
+            if (browser == null) {
+                browser = "chrome";
             }
         }
-        switch (browserName)
-        {
+        switch (browserName) {
             case "chrome":
                 driver = new ChromeDriver();
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Furkan\\Desktop\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
                 break;
             case "firefox":
                 driver = new FirefoxDriver();
+                System.setProperty("webdriver.gecko.driver", "\\driver\\geckodriver.exe");
                 break;
             case "ie":
                 driver = new InternetExplorerDriver();
+                System.setProperty("webdriver.ie.driver", "\\driver\\IEDriver.exe");
+                break;
+            case "edge":
+                driver = new EdgeDriver();
+                System.setProperty("webdriver.edge.driver", "\\driver\\MicrosoftWebDriver.exe");
+                break;
+//            Current releases of Opera are built on top of the Chromium engine, and WebDriver is now supported via the closed-source Opera Chromium Driver,
+//            which can be added to your PATH or as a system property.
+            case "opera":
+                driver = new OperaDriver();
                 break;
             case "safari":
                 driver = new SafariDriver();
+//                Run the following command from the terminal for the first time and type your password at the prompt to authorise WebDriver
+//                /usr/bin/safaridriver -p 1337</
                 break;
             default:
                 driver = new ChromeDriver();
+                System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
                 break;
         }
-        System.out.println("Opening Browser...."+browser);
+        System.out.println("Opening Browser=>" + browser);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
 
@@ -307,5 +322,54 @@ public class BaseStep {
         driver.close();
     }
 
-}
 
+    public void RestAPI(String link, String method,String jsonBody,Integer reponseValue) throws Throwable {
+        OkHttpClient client = new OkHttpClient().newBuilder()
+                .build();
+        switch (method) {
+            case "GET":
+                Request request = new Request.Builder()
+                        .url(link)
+                        .method(method, null)
+                        .addHeader("Content-Type", "application/json")
+                        .build();
+                Response response = client.newCall(request).execute();
+                Integer responseCode = response.code();
+                String bodyValue = response.body().string();
+                Assert.assertEquals(responseCode,reponseValue);
+                System.out.println(bodyValue);
+                System.out.println(responseCode);
+                break;
+            case "POST":
+                MediaType mediaType = MediaType.parse("application/json");
+                RequestBody body = RequestBody.create(mediaType, jsonBody);
+                Request requestPost = new Request.Builder()
+                        .url(link)
+                        .method(method, body)
+                        .addHeader("Content-Type", "application/json")
+                        .build();
+                Response responsePost = client.newCall(requestPost).execute();
+                String bodyValuePost = responsePost.body().string();
+                Integer responseCodePost = responsePost.code();
+                Assert.assertEquals(responseCodePost,reponseValue);
+                System.out.println(bodyValuePost);
+                System.out.println(responsePost);
+                break;
+            case "PUT":
+                MediaType mediaTypePut = MediaType.parse("application/json");
+                RequestBody bodyPut = RequestBody.create(mediaTypePut, jsonBody);
+                Request requestPut = new Request.Builder()
+                        .url(link)
+                        .method(method, bodyPut)
+                        .addHeader("Content-Type", "application/json")
+                        .build();
+                Response responsePut = client.newCall(requestPut).execute();
+                String bodyValuePut = responsePut.body().string();
+                Integer responseCodePut = responsePut.code();
+                Assert.assertEquals(responseCodePut,reponseValue);
+                System.out.println(bodyValuePut);
+                System.out.println(responsePut);
+                break;
+        }
+    }
+}

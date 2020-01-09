@@ -1,16 +1,13 @@
 package Steps;
 
 import Base.BaseStep;
-import cucumber.api.PendingException;
 import cucumber.api.java.tr.Diyelimki;
 import cucumber.api.java.tr.Ozaman;
 import cucumber.api.java.tr.Ve;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Trendyol extends BaseStep {
@@ -185,8 +182,8 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" urunu detayina gidilir$")
     public void urunuDetayinaGidilir(String productDetail) throws Throwable {
-        findElementClick("//div[text()='"+productDetail+"']",Pather.xPath);
-        String productLink=findElement("//span[@class='breadcrumb-item']//span",Pather.xPath,TimeOut.LOW).getText();
+        findElementClick("//div[text()='" + productDetail + "']", Pather.xPath);
+        String productLink = findElement("//span[@class='breadcrumb-item']//span", Pather.xPath, TimeOut.LOW).getText();
 //        Assert.assertEquals(productLink,productDetail);
 
     }
@@ -198,7 +195,7 @@ public class Trendyol extends BaseStep {
 
     @Ozaman("^\"([^\"]*)\" urununun sepete eklendigi gorulur$")
     public void urunununSepeteEklendigiGorulur(String productName) throws Throwable {
-        Assert.assertNotNull(findElement("//h1[normalize-space(text()='Sepetim')]",Pather.xPath,TimeOut.LOW));
+        Assert.assertNotNull(findElement("//h1[normalize-space(text()='Sepetim')]", Pather.xPath, TimeOut.LOW));
         findElementClick("li#myBasketListItem", Pather.cssSelector);
         String product = driver.findElement(By.cssSelector("span.description.basketlist-productinfo-description")).getText();
         Assert.assertEquals(product, productName);
@@ -215,7 +212,6 @@ public class Trendyol extends BaseStep {
     public void tarayiciKapatilir() {
         DriverClose();
     }
-
 
 }
 

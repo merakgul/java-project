@@ -22,7 +22,7 @@ dependencies {
     testCompile group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.4'
     compile group: 'info.cukes', name: 'cucumber-jvm', version: '1.2.4', ext: 'pom'
     compile group: 'info.cukes', name: 'cucumber-jvm-deps', version: '1.0.3'
-    
+    testCompile 'io.rest-assured:rest-assured:3.0.2'
 }
 configurations {
     cucumberRuntime {
