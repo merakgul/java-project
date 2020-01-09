@@ -14,7 +14,6 @@ public class Trendyol extends BaseStep {
 
     @Diyelimki("^\"([^\"]*)\" tarayicisinda \"([^\"]*)\" sayfasina giris yaptim$")
     public void tarayicisindaSayfasinaGirisYaptim(String browser, String url) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
         openBrowser(browser);
         geturl(url);
     }
@@ -36,7 +35,7 @@ public class Trendyol extends BaseStep {
                 findElementClick(linkName, Pather.linkText);
                 break;
         }
-        Thread.sleep(3000);
+        Thread.sleep(1000);
     }
 
 
@@ -49,7 +48,7 @@ public class Trendyol extends BaseStep {
     @Ve("^giris butonuna tiklarsam$")
     public void girisButonunaTiklarsam() throws Throwable {
         findElementClick("a#loginSubmit", Pather.cssSelector);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
     }
 
     @Ve("^indirimleri kacirma penceresini kapatirsam$")
@@ -182,14 +181,21 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" urunu detayina gidilir$")
     public void urunuDetayinaGidilir(String productDetail) throws Throwable {
-        findElementClick("//div[text()='" + productDetail + "']", Pather.xPath);
+        findElementClick("//div[@class='name'][text()='" + productDetail + "']", Pather.xPath);
         String productLink = findElement("//span[@class='breadcrumb-item']//span", Pather.xPath, TimeOut.LOW).getText();
 //        Assert.assertEquals(productLink,productDetail);
 
     }
 
     @Ve("^\"([^\"]*)\" butonuna basilirsa$")
-    public void butonunaBasilirsa(String addToBasket) throws Throwable {
+    public void butonunaBasilirsa(String addToBasket){
+        Boolean isPresent = driver.findElements(By.cssSelector("div.pr-in-sz-pk")).size()>0;
+        if (isPresent == true) {
+            findElementClick("div.pr-in-sz-pk", Pather.cssSelector);
+            findElementClick("//li[@class='vrn-item'][1]", Pather.xPath);
+            driver.findElement(By.xpath("//div[text()='" + addToBasket + "']")).click();
+        }
+        else
         driver.findElement(By.xpath("//div[text()='" + addToBasket + "']")).click();
     }
 
@@ -203,16 +209,16 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" ikonuna basilarak urun sepetten cikarilir$")
     public void ikonunaBasilarakUrunSepettenCikarilir(String remove) throws Throwable {
-        driver.findElement(By.xpath("//a[text()='" + remove + "']")).click();
+        driver.findElement(By.xpath("//a[@class='removeitem'][text()='Kaldır']")).click();
         driver.findElement(By.cssSelector("button.btn-item.btn-remove")).click();
         Thread.sleep(1000);
     }
 
     @Ve("^tarayici kapatilir$")
-    public void tarayiciKapatilir() {
+    public void tarayiciKapatilir() throws Throwable {
         DriverClose();
+        Thread.sleep(1000);
     }
-
 }
 
 
