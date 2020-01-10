@@ -3,8 +3,8 @@
 Özellik: Trendyol Otomasyon Muhendisi Calismasi
 
   @trend
-  Senaryo: Trendyol Sitesi Giris ve Login
-    Diyelim ki "chrome" tarayicisinda "https://www.trendyol.com/" sayfasina giris yaptim
+Senaryo: Trendyol Sitesi Giris, Image Kontrol ve Sepete Ekleme Senaryosu
+  Diyelim ki "chrome" tarayicisinda "https://www.trendyol.com/" sayfasina giris yaptim
     Ve reklam penceresini kapadim
     Ve "Giriş Yap" secenegine tikladim
     Ve "email" alanina "akgul.meryem@gmail.com" yazarsam
@@ -12,14 +12,6 @@
     Ve giris butonuna tiklarsam
     Ve indirimleri kacirma penceresini kapatirsam
     O zaman kullanici ikonunda "Hesabım" metni gorulur
-    Ve tarayici kapatilir
-
-
-  Senaryo: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari
-    Diyelim ki "chrome" tarayicisinda "https://www.trendyol.com/" sayfasina giris yaptim
-    Ve reklam penceresini kapadim
-    Ve "Giriş Yap" secenegine tikladim
-    Ve "email" alanina "akgul.meryem@gmail.com" yazarsam
     Ve "password" alanina "test123" yazarsam
     Ve giris butonuna tiklarsam
     Ve indirimleri kacirma penceresini kapatirsam
@@ -35,6 +27,16 @@
     Ve "Kaldır" ikonuna basilarak urun sepetten cikarilir
     Ve tarayici kapatilir
 
+  Senaryo: Trendyol Sitesi Giris ve Login
+    Diyelim ki "chrome" tarayicisinda "https://www.trendyol.com/" sayfasina giris yaptim
+    Ve reklam penceresini kapadim
+    Ve "Giriş Yap" secenegine tikladim
+    Ve "email" alanina "akgul.meryem@gmail.com" yazarsam
+    Ve "password" alanina "test123" yazarsam
+    Ve giris butonuna tiklarsam
+    Ve indirimleri kacirma penceresini kapatirsam
+    O zaman kullanici ikonunda "Hesabım" metni gorulur
+    Ve tarayici kapatilir
 
 
   Senaryo: Trendyol Sitesi Urun Gorselleri Kontrolu

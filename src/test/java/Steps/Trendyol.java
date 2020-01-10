@@ -181,10 +181,9 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" urunu detayina gidilir$")
     public void urunuDetayinaGidilir(String productDetail) throws Throwable {
+        PageScrolldown();
         findElementClick("//div[@class='name'][text()='" + productDetail + "']", Pather.xPath);
-        String productLink = findElement("//span[@class='breadcrumb-item']//span", Pather.xPath, TimeOut.LOW).getText();
-//        Assert.assertEquals(productLink,productDetail);
-
+        Thread.sleep(1000);
     }
 
     @Ve("^\"([^\"]*)\" butonuna basilirsa$")
@@ -209,7 +208,7 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" ikonuna basilarak urun sepetten cikarilir$")
     public void ikonunaBasilarakUrunSepettenCikarilir(String remove) throws Throwable {
-        driver.findElement(By.xpath("//a[@class='removeitem'][text()='Kaldır']")).click();
+        driver.findElement(By.xpath("//a[@class='removeitem']")).click();
         driver.findElement(By.cssSelector("button.btn-item.btn-remove")).click();
         Thread.sleep(1000);
     }
