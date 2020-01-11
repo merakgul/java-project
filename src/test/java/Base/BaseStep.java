@@ -23,28 +23,18 @@ public class BaseStep {
     public void openBrowser(String browserName) throws MalformedURLException {
         String browser = System.getProperty("BROWSER");
 
-        if (browser == null) {
-            browser = System.getenv("BROWSER");
-            if (browser == null) {
-                browser = "chrome";
-            }
-        }
         switch (browserName) {
             case "chrome":
                 driver = new ChromeDriver();
-                System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
                 break;
             case "firefox":
                 driver = new FirefoxDriver();
-                System.setProperty("webdriver.gecko.driver", "\\driver\\geckodriver.exe");
                 break;
             case "ie":
                 driver = new InternetExplorerDriver();
-                System.setProperty("webdriver.ie.driver", "\\driver\\IEDriver.exe");
                 break;
             case "edge":
                 driver = new EdgeDriver();
-                System.setProperty("webdriver.edge.driver", "\\driver\\MicrosoftWebDriver.exe");
                 break;
 //            Current releases of Opera are built on top of the Chromium engine, and WebDriver is now supported via the closed-source Opera Chromium Driver,
 //            which can be added to your PATH or as a system property.
@@ -56,15 +46,10 @@ public class BaseStep {
 //                Run the following command from the terminal for the first time and type your password at the prompt to authorise WebDriver
 //                /usr/bin/safaridriver -p 1337</
                 break;
-            default:
-                driver = new ChromeDriver();
-                System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
-                break;
         }
-        System.out.println("Opening Browser=>" + browser);
+        System.out.println("Opening Browser=>" + browserName);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-
     }
 
     public enum Pather {
@@ -323,7 +308,7 @@ public class BaseStep {
     }
 
 
-    public void RestAPI(String link, String method,String jsonBody,Integer reponseValue) throws Throwable {
+    public void RestAPI(String link, String method, String jsonBody, Integer reponseValue) throws Throwable {
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
         switch (method) {
@@ -336,7 +321,7 @@ public class BaseStep {
                 Response response = client.newCall(request).execute();
                 Integer responseCode = response.code();
                 String bodyValue = response.body().string();
-                Assert.assertEquals(responseCode,reponseValue);
+                Assert.assertEquals(responseCode, reponseValue);
                 System.out.println(bodyValue);
                 System.out.println(responseCode);
                 break;
@@ -351,7 +336,7 @@ public class BaseStep {
                 Response responsePost = client.newCall(requestPost).execute();
                 String bodyValuePost = responsePost.body().string();
                 Integer responseCodePost = responsePost.code();
-                Assert.assertEquals(responseCodePost,reponseValue);
+                Assert.assertEquals(responseCodePost, reponseValue);
                 System.out.println(bodyValuePost);
                 System.out.println(responsePost);
                 break;
@@ -366,7 +351,7 @@ public class BaseStep {
                 Response responsePut = client.newCall(requestPut).execute();
                 String bodyValuePut = responsePut.body().string();
                 Integer responseCodePut = responsePut.code();
-                Assert.assertEquals(responseCodePut,reponseValue);
+                Assert.assertEquals(responseCodePut, reponseValue);
                 System.out.println(bodyValuePut);
                 System.out.println(responsePut);
                 break;

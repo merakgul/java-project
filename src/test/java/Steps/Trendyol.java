@@ -183,19 +183,20 @@ public class Trendyol extends BaseStep {
     public void urunuDetayinaGidilir(String productDetail) throws Throwable {
         PageScrolldown();
         findElementClick("//div[@class='name'][text()='" + productDetail + "']", Pather.xPath);
-        Thread.sleep(1000);
+        String productLink = findElement("//span[@class='breadcrumb-item']//span", Pather.xPath, TimeOut.LOW).getText();
+//        Assert.assertEquals(productLink,productDetail);
+
     }
 
     @Ve("^\"([^\"]*)\" butonuna basilirsa$")
-    public void butonunaBasilirsa(String addToBasket){
-        Boolean isPresent = driver.findElements(By.cssSelector("div.pr-in-sz-pk")).size()>0;
+    public void butonunaBasilirsa(String addToBasket) {
+        Boolean isPresent = driver.findElements(By.cssSelector("div.pr-in-sz-pk")).size() > 0;
         if (isPresent == true) {
             findElementClick("div.pr-in-sz-pk", Pather.cssSelector);
             findElementClick("//li[@class='vrn-item'][1]", Pather.xPath);
             driver.findElement(By.xpath("//div[text()='" + addToBasket + "']")).click();
-        }
-        else
-        driver.findElement(By.xpath("//div[text()='" + addToBasket + "']")).click();
+        } else
+            driver.findElement(By.xpath("//div[text()='" + addToBasket + "']")).click();
     }
 
     @Ozaman("^\"([^\"]*)\" urununun sepete eklendigi gorulur$")
@@ -208,7 +209,7 @@ public class Trendyol extends BaseStep {
 
     @Ve("^\"([^\"]*)\" ikonuna basilarak urun sepetten cikarilir$")
     public void ikonunaBasilarakUrunSepettenCikarilir(String remove) throws Throwable {
-        driver.findElement(By.xpath("//a[@class='removeitem']")).click();
+        driver.findElement(By.xpath("//a[@class='removeitem'][text()='Kaldır']")).click();
         driver.findElement(By.cssSelector("button.btn-item.btn-remove")).click();
         Thread.sleep(1000);
     }

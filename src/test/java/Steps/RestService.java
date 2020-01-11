@@ -11,10 +11,9 @@ public class RestService extends BaseStep {
 
 
     @Diyelimki("(.*) servisi (.*) metodu ve (.*) body degeri ile calistirilirsa donus degerinin (.*) geldigi gorulur$")
-    public void servisiMetoduVeBodyDegeriIleCalistirilirsaDonusDegerininGeldigiGorulur(String link, String method, String jsonBody,Integer responseValue) throws Throwable {
-        RestAPI(link,method,jsonBody,responseValue);
+    public void servisiMetoduVeBodyDegeriIleCalistirilirsaDonusDegerininGeldigiGorulur(String link, String method, String jsonBody, Integer responseValue) throws Throwable {
+        RestAPI(link, method, jsonBody, responseValue);
     }
-
 
 
     @Ve("^deneme yapalim$")

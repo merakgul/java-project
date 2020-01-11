@@ -7,7 +7,7 @@
     Diyelim ki http://0d75z.mocklab.io/api/books servisi GET metodu ve null body degeri ile calistirilirsa donus degerinin 200 geldigi gorulur
 
   Senaryo: Create new data with put method
-    Diyelim ki http://0d75z.mocklab.io/api/books servisi PUT metodu ve {"id":1, "Author":"JSX", "title":"deneme1"} body degeri ile calistirilirsa donus degerinin 201 geldigi gorulur
+   Diyelim ki http://0d75z.mocklab.io/api/books servisi PUT metodu ve {"id":1, "Author":"JSX", "title":"deneme1"} body degeri ile calistirilirsa donus degerinin 201 geldigi gorulur
 
   Senaryo: After create put method, read new data
     Diyelim ki http://0d75z.mocklab.io/api/books servisi GET metodu ve null body degeri ile calistirilirsa donus degerinin 200 geldigi gorulur
