@@ -183,7 +183,7 @@ public class Trendyol extends BaseStep {
     public void urunuDetayinaGidilir(String productDetail) throws Throwable {
         PageScrolldown();
         findElementClick("//div[@class='name'][text()='" + productDetail + "']", Pather.xPath);
-        String productLink = findElement("//span[@class='breadcrumb-item']//span", Pather.xPath, TimeOut.LOW).getText();
+//       String productLink = findElement("//span[@class='breadcrumb-item']//span", Pather.xPath, TimeOut.LOW).getText();
 //        Assert.assertEquals(productLink,productDetail);
 
     }
