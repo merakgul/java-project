@@ -15,13 +15,16 @@ import org.testng.Assert;
 import java.net.MalformedURLException;
 
 
-public class BaseStep {
+public class BaseStep  {
     public WebDriver driver;
     public JavascriptExecutor jse = (JavascriptExecutor) driver;
 
 
     public void openBrowser(String browserName) throws MalformedURLException {
+
         String browser = System.getProperty("BROWSER");
+
+
 
         switch (browserName) {
             case "chrome":
@@ -97,7 +100,7 @@ public class BaseStep {
         driver.get(name);
     }
 
-    public void waitElement(WebElement element, TimeOut timeOut) {
+    public void waitElement(WebElement element, TimeOut timeOut)  {
 
         try {
 

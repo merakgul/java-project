@@ -2,16 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b8c001a-0b7a-4f03-b43d-b759b0ce2151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/MyLogs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/propertieslogs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExtendReportss/ExtendReportsBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExtendReportss/ExtendReportsWithTestNg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hello/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hello/HelloGradleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/Log4JDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$Pather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep$TimeOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Base/BaseStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Hooks.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Trendyol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Trendyol.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,78 +86,6 @@
   <component name="FavoritesManager">
     <favorites_list name="meryemProject" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Features/Trendyol.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Trendyol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="191" column="45" lean-forward="true" selection-start-line="191" selection-start-column="45" selection-end-line="191" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Base/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Features/RestService.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -141,223 +93,83 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Pather</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/Steps/RegisterStep.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/trendyol.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/trendyol.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/Register.feature" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/Rest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/trendyol.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/Steps/Rest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/Steps/RestService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/rest.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Base/rest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/RestService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/RestService.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/Trendyol.java" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1WOvWHu07VPpzqopBvTADEvyKP5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="279" />
-    <option name="y" value="157" />
-    <option name="width" value="1368" />
-    <option name="height" value="775" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meryemProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meryemProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Features" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578780815933" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trendyolProject" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\resources" />
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\driver" />
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\java\Steps" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Steps" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Steps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/java/Steps" />
       <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\driver" />
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject" />
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test-output" />
       <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\driver" />
-      <recent name="C:\Users\Furkan\IdeaProjects\meryemProject\src\test\java\Steps" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="clean" />
+      <command value="gradle clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari">
-    <configuration name="Feature: RestService" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/RestService.feature" />
-      <option name="GLUE" value="Base Steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="newGradleProject.meryemProject.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: RestService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: Trendyol" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="meryemProject.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Trendyol" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Sepete Urun Eklenmesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="newGradleProject.meryemProject.test" />
-      <option name="NAME_FILTER" value="^Sepete Urun Eklenmesi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Sepete Urun Eklenmesi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Sepete Urun Eklenmesi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="meryemProject.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Scenario: Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
-      <option name="GLUE" value="Base Steps" />
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Trendyol.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="meryemProject.test" />
-      <option name="NAME_FILTER" value="^Trendyol Sitesi Giris ve Login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Trendyol Sitesi Giris ve Login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Trendyol Sitesi Giris ve Login" />
+      <option name="NAME_FILTER" value="^Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -368,43 +180,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
-      <option name="GLUE" value="Base Steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="newGradleProject.meryemProject.test" />
-      <option name="NAME_FILTER" value="^Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="AppTest.helloGradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Hello.AppTest.helloGradle&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Trendyol.feature" />
-      <option name="GLUE" value="Base Steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="newGradleProject.meryemProject.test" />
-      <option name="NAME_FILTER" value="^Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Hooks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Steps.Hooks&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="eski [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="trend" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -426,20 +259,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: Trendyol" />
-      <item itemvalue="Cucumber java.Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" />
+      <item itemvalue="Application.App" />
       <item itemvalue="Cucumber java.Scenario: Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi" />
-      <item itemvalue="Cucumber java.Scenario: Sepete Urun Eklenmesi" />
       <item itemvalue="Gradle.trend" />
-      <item itemvalue="Cucumber java.Feature: RestService" />
+      <item itemvalue="Gradle.AppTest.helloGradle" />
+      <item itemvalue="Gradle.Hooks" />
+      <item itemvalue="Gradle.eski [bootJar]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" />
-        <item itemvalue="Cucumber java.Feature: RestService" />
-        <item itemvalue="Cucumber java.Feature: Trendyol" />
-        <item itemvalue="Cucumber java.Scenario: Sepete Urun Eklenmesi" />
         <item itemvalue="Cucumber java.Scenario: Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.eski [bootJar]" />
+        <item itemvalue="Gradle.AppTest.helloGradle" />
+        <item itemvalue="Gradle.Hooks" />
       </list>
     </recent_temporary>
   </component>
@@ -490,38 +323,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi_Tum_Adimlari - 2020.01.09 at 21h 22m 15s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Sepete_Urun_Eklenmesi_Beden_Secimli_Urun_Eklenmesi - 2020.01.09 at 21h 23m 29s.xml">
-      <configuration name="Scenario: Sepete Urun Eklenmesi_Beden Secimli Urun Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Sepete_Urun_Eklenmesi - 2020.01.09 at 21h 25m 03s.xml">
-      <configuration name="Scenario: Sepete Urun Eklenmesi" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Trendyol - 2020.01.09 at 21h 27m 02s.xml">
-      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Trendyol - 2020.01.09 at 21h 29m 05s.xml">
-      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Trendyol - 2020.01.09 at 21h 32m 09s.xml">
-      <configuration name="Feature: Trendyol" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Giris_ve_Login - 2020.01.09 at 21h 33m 45s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Giris ve Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi_Tum_Adimlari - 2020.01.12 at 01h 10m 13s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__RestService - 2020.01.12 at 01h 10m 32s.xml">
-      <configuration name="Feature: RestService" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Trendyol_Sitesi_Urun_Gorselleri_Kontrolu_ve_Urun_Sepete_Eklenmesi_Tum_Adimlari - 2020.01.12 at 01h 12m 50s.xml">
-      <configuration name="Scenario: Trendyol Sitesi Urun Gorselleri Kontrolu ve Urun Sepete Eklenmesi Tum Adimlari" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -531,266 +332,125 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.20735608" />
-      <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.20309168" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.28666666" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.3288889" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026652" side_tool="true" weight="0.32" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4968017" weight="0.19555555" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3288889" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" sideWeight="0.49918434" visible="true" weight="0.15191898" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008157" side_tool="true" weight="0.15191898" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.20309168" />
-      <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.20309168" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.3188889" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.3288889" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026652" side_tool="true" weight="0.32" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4968017" weight="0.35555556" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3288889" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5008157" side_tool="true" visible="true" weight="0.15191898" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49918434" visible="true" weight="0.15191898" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="trendyol browser parametrik acilisi" />
     <MESSAGE value="REST API Testleri Eklendi" />
     <MESSAGE value="Kisa bir guncelleme" />
     <option name="LAST_COMMIT_MESSAGE" value="Kisa bir guncelleme" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1128">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RegisterStep.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5055">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/Register.feature" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Rest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/REs" />
-    <entry file="file://$PROJECT_DIR$/out/test/classes/Steps/Trendyol.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Steps/Rest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base/rest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/RestService.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/Trendyol.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Trendyol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="191" column="45" lean-forward="true" selection-start-line="191" selection-start-column="45" selection-end-line="191" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="351" y="196" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579035274414">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="351" y="196" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.727@0.23.1280.727" timestamp="1579035274414" />
+    <state x="440" y="236" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1579178447762">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="440" y="236" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.23.1280.726@0.23.1280.726" timestamp="1579115869631" />
+    <state x="440" y="236" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.23.1280.727@0.23.1280.727" timestamp="1579178447762" />
+    <state x="489" y="282" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579033614028">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="489" y="282" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.726@0.23.1280.726" timestamp="1579033614028" />
+    <state x="308" y="319" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579180005325">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="308" y="319" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.727@0.23.1280.727" timestamp="1579180005325" />
+    <state x="378" y="140" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579096172774">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="378" y="140" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.726@0.23.1280.726" timestamp="1579096172774" />
+    <state width="1238" height="261" key="GridCell.Tab.0.bottom" timestamp="1579521887499">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="261" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579521887499" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579146826683" />
+    <state width="1238" height="223" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1579273189791" />
+    <state width="1238" height="223" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1579273200660" />
+    <state width="1238" height="301" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1579183285697" />
+    <state width="1238" height="21" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1579173791152" />
+    <state width="1238" height="261" key="GridCell.Tab.0.center" timestamp="1579521887498">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="261" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579521887498" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1579146826682" />
+    <state width="1238" height="223" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1579273189789" />
+    <state width="1238" height="223" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1579273200659" />
+    <state width="1238" height="301" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1579183285696" />
+    <state width="1238" height="21" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1579173791152" />
+    <state width="1238" height="261" key="GridCell.Tab.0.left" timestamp="1579521887498">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="261" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579521887498" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1579146826682" />
+    <state width="1238" height="223" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1579273189789" />
+    <state width="1238" height="223" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1579273200659" />
+    <state width="1238" height="301" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1579183285696" />
+    <state width="1238" height="21" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1579173791151" />
+    <state width="1238" height="261" key="GridCell.Tab.0.right" timestamp="1579521887498">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="261" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579521887498" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1579146826683" />
+    <state width="1238" height="223" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1579273189790" />
+    <state width="1238" height="223" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1579273200659" />
+    <state width="1238" height="301" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1579183285697" />
+    <state width="1238" height="21" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1579173791152" />
+    <state width="1238" height="225" key="GridCell.Tab.1.bottom" timestamp="1579176535796">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1238" height="225" key="GridCell.Tab.1.bottom/0.23.1280.727@0.23.1280.727" timestamp="1579176535796" />
+    <state width="1238" height="225" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1579166210673" />
+    <state width="1238" height="225" key="GridCell.Tab.1.center" timestamp="1579176535795">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1238" height="225" key="GridCell.Tab.1.center/0.23.1280.727@0.23.1280.727" timestamp="1579176535795" />
+    <state width="1238" height="225" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1579166210672" />
+    <state width="1238" height="225" key="GridCell.Tab.1.left" timestamp="1579176535795">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1238" height="225" key="GridCell.Tab.1.left/0.23.1280.727@0.23.1280.727" timestamp="1579176535795" />
+    <state width="1238" height="225" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1579166210672" />
+    <state width="1238" height="225" key="GridCell.Tab.1.right" timestamp="1579176535796">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1238" height="225" key="GridCell.Tab.1.right/0.23.1280.727@0.23.1280.727" timestamp="1579176535796" />
+    <state width="1238" height="225" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1579166210673" />
+    <state x="228" y="246" key="Performance.Activity.Monitor" timestamp="1579115840243">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="228" y="246" key="Performance.Activity.Monitor/0.23.1280.726@0.23.1280.726" timestamp="1579115840243" />
+    <state x="141" y="23" key="SettingsEditor" timestamp="1579270356513">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="141" y="23" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1579270356513" />
+    <state x="317" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1579269715481">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="317" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.726@0.23.1280.726" timestamp="1579269715481" />
+    <state x="317" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727@0.23.1280.727" timestamp="1579161335459" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579522232081">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1579522232081" />
+    <state x="398" y="120" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579179337397">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="398" y="120" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.727@0.23.1280.727" timestamp="1579179337397" />
+    <state x="298" y="138" width="683" height="525" key="find.popup" timestamp="1579517501774">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="298" y="138" width="683" height="525" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1579517501774" />
+    <state x="298" y="148" width="683" height="476" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1579099642999" />
+    <state x="305" y="173" width="670" height="675" key="run.anything.popup" timestamp="1579271687853">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="305" y="173" width="670" height="675" key="run.anything.popup/0.23.1280.726@0.23.1280.726" timestamp="1579271687853" />
+    <state x="305" y="173" width="670" height="675" key="run.anything.popup/0.23.1280.727@0.23.1280.727" timestamp="1579034843596" />
   </component>
   <component name="gradleExecuteTaskHistory">
     <option value="$PROJECT_DIR$" />
     <option value="clean" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>newGradleProject.meryemProject</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: cglib:cglib:3.2.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

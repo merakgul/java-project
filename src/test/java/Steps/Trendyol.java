@@ -12,6 +12,7 @@ import java.util.List;
 
 public class Trendyol extends BaseStep {
 
+
     @Diyelimki("^\"([^\"]*)\" tarayicisinda \"([^\"]*)\" sayfasina giris yaptim$")
     public void tarayicisindaSayfasinaGirisYaptim(String browser, String url) throws Throwable {
         openBrowser(browser);

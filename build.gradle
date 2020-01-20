@@ -1,11 +1,17 @@
+
 plugins {
     id 'java'
+    id 'org.springframework.boot' version '2.0.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.7.RELEASE'
 }
 
 group 'newGradleProject'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
+bootJar {
+    mainClassName = 'hello.App'
+}
 
 repositories {
     mavenCentral()
@@ -13,14 +19,16 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.4'
-    compile group: 'info.cukes', name: 'cucumber-java', version:'1.2.4'
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '3.0.2'
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '3.0.2'
+    compile group: 'io.cucumber', name: 'cucumber-core', version: '3.0.2'
+    compile group: 'io.cucumber', name: 'cucumber-picocontainer', version: '2.3.1'
+    compile group: 'io.cucumber', name: 'cucumber-expressions', version: '5.0.17'
+    compile group: 'org.picocontainer', name: 'picocontainer', version: '2.15'
     compile group: 'io.appium', name: 'java-client', version: '7.0.0'
-    compile group: 'org.testng', name: 'testng', version: '7.0.0-beta3'
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.6'
-    testCompile group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.4'
-    compile group: 'info.cukes', name: 'cucumber-jvm', version: '1.2.4', ext: 'pom'
     compile group: 'info.cukes', name: 'cucumber-jvm-deps', version: '1.0.3'
     testCompile 'io.rest-assured:rest-assured:3.0.2'
     compile group: 'ch.qos.logback', name: 'logback-core', version: '1.0.+'
@@ -33,7 +41,42 @@ dependencies {
 
     compileOnly("org.immutables:value-annotations:2.7.1")
     annotationProcessor("org.immutables:value:2.7.1")
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.1'
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.1'
+    // https://mvnrepository.com/artifact/com.aventstack/extentreports
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+    testImplementation 'org.junit.platform:junit-platform-commons:1.5.2'
+    // https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin
+    compile group: 'org.apache.maven.plugins', name: 'maven-surefire-plugin', version: '2.19.1'
+    // https://mvnrepository.com/artifact/org.junit.platform/junit-platform-surefire-provider
+    //-------------
+    implementation 'org.springframework.boot:spring-boot-dependencies:2.0.5.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compile('org.springframework.boot:spring-boot-starter-web')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+
+    components {
+        withModule('org.springframework:spring-beans') {
+            allVariants {
+                withDependencyConstraints {
+                    // Need to patch constraints because snakeyaml is an optional dependency
+                    it.findAll { it.name == 'snakeyaml' }.each { it.version { strictly '1.19' } }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
 }
+
 configurations {
     cucumberRuntime {
         extendsFrom testRuntime
